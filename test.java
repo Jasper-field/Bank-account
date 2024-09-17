@@ -6,7 +6,10 @@ public static void main (String[] args)
     checking.logIn("jsong", "mark");
     System.out.println(checking);
     checking.deposit(100);
-    System.out.println();
+    System.out.println(checking.getBalance());
+    checking.withdrawal(50);
+    System.out.println(checking.getBalance());
+    
 }
 
 }
